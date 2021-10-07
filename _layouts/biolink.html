@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="/favicon.ico?v=1" />
+  <link rel="mask-icon" href="/mask-icon.svg" color="#ffffff">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:url" content="https://tyleretters.com/biolink">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ site.url }}/assets/images/chlorophyll-dawn-og.jpg">
+  <script src="https://kit.fontawesome.com/bf8e061a12.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ "/assets/stylesheets/style.css" | relative_url }}?{{site.time | date: '%s%N'}}">
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6 offset-md-3 col-sm-6 offset-sm-3">
+      <header>
+        <h1>{{ site.title }}</h1>
+      </header>
+      <main>
+        <ul>
+          {% for item in site.data.biolinks %}
+          <li class="my-3"><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </main>
+      <footer>
+        <details>
+          <summary>More...</summary>
+          <p><em>This webpage is proudly served via <a href="https://pages.github.com/">GitHub Pages</a> over a <a href="https://letsencrypt.org/">Let's Encrypt</a> <a href="https://en.wikipedia.org/wiki/Public_key_certificate">SHA-256 RSA Encrypted SSL Certificate</a> (with ne'er a cookie nor tracker in sight) and uses <a href="https://www.digitalocean.com/community/tutorials/css-system-font-stack">system font stacks</a>. Thanks to my dear friend <a href="http://corysalveson.com/">Cory Salveson</a> for the rad particle animation as originally featured on <a href="https://commoner.earth">https://commoner.earth</a>. Background image "The Morning Song" (modified) by Nemfrog Tumbler, 1883.</em></p>
+          <p>🧬</p>
+        </details>
+        <h2><em>{{ site.description }}</em></h2>
+      </footer>
+    </div>
+  </div>
+</div>
+<div id="particles-js"></div>
+<script src="assets/javascript/particles.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>

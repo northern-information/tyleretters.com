@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" />
+  <link rel="shortcut icon" href="/favicon.ico?v=1" />
+  <link rel="mask-icon" href="/mask-icon.svg" color="#ffffff">
+  <meta property="og:title" content="{{ site.title }}">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:url" content="https://tyleretters.com/biolink">
+  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="{{ site.url }}/assets/images/chlorophyll-dawn-og.jpg">
+  <script src="https://kit.fontawesome.com/bf8e061a12.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ "/assets/stylesheets/style.css" | relative_url }}?{{site.time | date: '%s%N'}}">
+</head>
+<body>
+<main class="container-fluid">
+  <div class="row">
+    <div class="col">
+      <h1>404</h1>
+      <p>The requested page could not be found.</p>
+    </div>
+  </div>
+</main>
+</body>
+</html>
+
