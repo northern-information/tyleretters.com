@@ -1,0 +1,50 @@
+- title: Columbia College Chicago
+  dates: 2006 - 2010
+  credentials:
+
+    - credential: BFA Graphic Design
+      notes: |
+        *magna cum laude*
+
+- title: Certifications
+  dates:
+  credentials:
+
+    - credential: Fundamentals of Finance and Accounting for Non-Financial Managers
+      dates: 2020
+      authority: American Management Association
+      cert: PDU# 1294TOT115
+
+    - credential: "Programming Max: Structuring Interactive Software for Digital Arts"
+      dates: 2020
+      authority: Kadenze Inc.
+      cert: AAMR5MRK
+
+    - credential: Illinois Motorcycle Rider Safety Training
+      dates: 2016
+      authority: Illinois Department of Transportation
+      cert: 163113505
+
+    - credential: TOGAF 9 Foundation Certification
+      dates: 2016
+      authority: The Open Group
+      cert: 103777
+      
+- title: Selected Conferences
+  dates:
+  credentials:
+
+    - credential: Ops-Conf
+      dates: 2018, 2019
+
+    - credential: Conscious Company Leaders Forum
+      dates: 2019
+
+    - credential: Collision Conference
+      dates: 2018
+
+    - credential: php[tek]
+      dates: 2013, 2014
+
+    - credential: GLI.TC/H 2112
+      dates: 2012

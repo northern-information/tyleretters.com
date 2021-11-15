@@ -1,0 +1,63 @@
+- title: Highland
+  dates: 2013 - Today
+  seats:
+
+    - seat: Vice President
+      years: 2 years
+      notes: Responsible for finance, AR/AP, human resources, ops, compliance, project staffing, vendor relations, and project oversight.
+
+    - seat: Director, Software Development
+      years: 3 years
+      notes: I directly managed Highland's developers, consulted with clients, and served on the leadership team.
+
+    - seat: Solutions Architect
+      years: 2 years
+      notes: Responsible to frame our approach, research technical feasibility, build spikes to reduce risk, and create estimates. Once projects were underway, I would provide technical oversight and help the build teams manage to emergent complexities.
+
+    - seat: Senior Application Developer
+      years: 1 year
+      notes: Responsible for building web applications.
+    
+- title: norns study group
+  dates: 2020 - Today
+  seats:
+
+    - seat: Volunteer
+      years: 1 year
+      notes: The norns study group is Discord community focused around building software for the monome norns sound computer. Each week I volunteer time as a mentor, moderator, and event organizer.
+
+- title: Northern Information
+  dates: 2009 - Today
+  seats:
+
+    - seat: Software Designer
+      years: 13 years
+      notes: I regularly release open-source music software.
+
+- title: Cubicle Ninjas
+  dates: 2011 - 2013
+  seats:
+
+    - seat: Senior Application Developer
+      years: 1 year
+      notes: Responsible for building web applications and mentoring less experienced developers.
+
+    - seat: Application Developer
+      years: 2 years
+      notes: Responsible for building web applications.
+
+- title: AlphaGraphics
+  dates: 2008 - 2011
+  seats:
+
+    - seat: Graphic Designer
+      years: 3 years
+      notes: Responsible for prepress, production, and graphic design.
+
+- title: Freelance
+  dates: 2008 - 2013
+  seats:
+
+    - seat: Designer & Developer
+      years: 5 years
+      notes: I freelanced through college and the early days of my career. I specialized in branding and websites for small businesses.

@@ -1,0 +1,42 @@
+- title: norns.community
+  class: row row-dark
+  dates: 2021
+  image: norns-community.png
+  url: https://nor.the-rn.info/2021/04/09/building-norns-community/
+  notes: |
+    A detailed account of how I built norns.community with Jordan, Dan, and Brian. I was responsible for UX design, information architecture, and web development.
+  
+- title: arcologies
+  class: row
+  image: arcologies.png
+  dates: 2020
+  url: https://northern-information.github.io/arcologies-docs/
+  notes: |
+    This is an interactive environment for designing "2D sound arcologies" with norns and grid. It was my 2020 passion project. Be sure to check out the [community gallery](https://northern-information.github.io/arcologies-docs/gallery) to hear some of the music people have created with it.
+
+
+- title: Yggdrasil
+  class: row row-dark
+  video: |
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8ac2qw9gmaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  dates: 2020
+  url: https://northern-information.github.io/yggdrasil-docs/
+  notes: |
+    This class of software is known as a [tracker](https://en.wikipedia.org/wiki/Music_tracker) - which essentially allows you to make music with a spreadsheet. In addition to designing and developing the software, I also created the DSL (domain specific language) for scripting/live-coding.
+  
+
+- title: FLASH CRASH
+  class: row
+  image: flash-crash.jpg
+  dates: 2021
+  url: https://flashcrash.net/archives
+  notes: |
+    FLASH CRASH is a recursive live-coding online event I organize. The brand dies and is reborn for each event. I design and develop the assets for the livestreams. Assets range from simple images to interactive cellular automata visualizers...
+
+- title: Map Corps
+  class: row row-dark
+  image: map-corps.png
+  dates: 2021
+  url: https://mapcorps.net
+  notes: |
+    Map Corps is a netlabel and university. The branding is intentionally adversarial, brutalist, and jarring. Community thought-leaders regularly contribute articles to the university.
