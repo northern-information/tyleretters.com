@@ -30,12 +30,21 @@
       authority: The Open Group
       cert: 103777
       
-- title: Selected Conferences
+- title: Selected Conferences & Events
   dates:
   credentials:
 
+    - credential: BabyCastles Academy
+      dates: 2020
+      notes: Workshop Leader
+
+    - credential: Music Hackspace
+      dates: 2020
+      notes: Workshop Leader
+
     - credential: Ops-Conf
       dates: 2018, 2019
+      notes: Speaker
 
     - credential: Conscious Company Leaders Forum
       dates: 2019
