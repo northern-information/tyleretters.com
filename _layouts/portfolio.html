@@ -44,13 +44,13 @@
 
 <div class="container-fluid">
   {% for item in site.data.portfolio %}
-  <div class="{{ item.class }} p-5">
+  <div class="{{ item.class }} px-3 py-5">
     <div class="col-md-4 col-sm-12">
       <h1>{{ item.title }}</h1>
       <p>{{ item.notes | markdownify }}</p>
       <a href="{{ item.url }}" class="btn btn-lg btn-primary">Explore</a>
     </div>
-    <div class="col-md-8 col-sm-12">
+    <div class="col-md-8 col-sm-12 my-3">
       {% if item.image %}
         <img src="/assets/images/portfolio/{{ item.image }}" class="img-fluid img-100" />
       {% endif %}
