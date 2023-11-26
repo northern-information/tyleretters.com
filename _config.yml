@@ -1,10 +1,10 @@
-title: Tyler Etters — Biolink
-description: ...to see a chlorophyll dawn.
+title: Tyler Etters
+description: Seasoned Engineer, Designer, and Leader
 baseurl: /
 url: https://tyleretters.com
 include: ['_pages']
-tagline: Seasoned designer, developer, and leader.
-blurb: I've spent half my life passionately building software and leading agency teams and clients. I am a seasoned consultant with countless products, solutions, and integrations deployed in both B2B and B2C domains. After serving as Vice President at Highland, I am seeking a full-time position on a remote team where I can focus on building software instead of a company. I am a citizen of the United States, vaccinated, and able to travel for work.
+tagline: Seasoned Engineer, Designer, and Leader
+blurb: I spend most of my time producing electronic music and passionately building software. I am a seasoned professional who has deployed countless products, solutions, and integrations in both B2B and B2C domains. After serving as Vice President at Highland, I took an IC position at Output, Inc. because I wanted a hands-on role in the music industry. I am at my best when I am building reslient and accessible web experiences!
 plugins:
   - jekyll-feed
   - jekyll-redirect-from

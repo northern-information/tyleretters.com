@@ -1,30 +1,28 @@
 - title: Skills
   capabilities:
+    - Full Stack Engineering
+    - Accessiblity, W3C Standards, a11y, and Semantics
     - Visual, Product, Systems, and UX Design
-    - Rapid & High Fidelity Prototyping
     - Agile Software Development
     - Application Development
-    - Workshop Facilitation
+    - Information Architecture & Database Design
+    - Writing, Drawing, and Illustration
+    - Workshop Facilitation and Rapid Prototyping
     - Product, Go-to-Market, and Business Strategy
-    - Information Architecture
-    - Database Design
-    - Web Development, W3C Standards, a11y, and Semantic Markup
-    - Writing
-    - Drawing & Illustration
     - Management, Mentoring, and Organization Design
-    - Entrepreneurial Operating System (EOS)
     - Finance, Cashflow, AR/AP, and Vendor Relations
 
 - title: Tools
   capabilities:
-    - Adobe Creative Suite, Sketch, Figma, etc.
-    - Balsamiq, InVision, Miro, etc.
+    - TypeScript / JavaScript / Node
+    - SASS / SCSS / CSS
+    - git / GitHub
+    - bash, zsh, vim, ssh, grep, general scripting, etc.
+    - Python
     - Lua
-    - JavaScript
-    - SASS/SCSS
-    - git & GitHub
-    - Jekyll
-    - bash, zsh, vim, ssh, etc.
+    - Adobe Creative Suite, Figma, etc.
+    - Balsamiq, InVision, Miro, etc.
+    - Atlassian
     - macOS, Windows, Ubuntu
     - Photography (35mm & digital)
     - OBS

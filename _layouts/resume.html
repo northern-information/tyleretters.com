@@ -119,7 +119,7 @@
           <p><em class="text-muted">{{ credential.dates }}</em></p>
           <p>{{ credential.notes | markdownify }}</p>
           {% if credential.authority %}<p>{{ credential.authority }}</p>{% endif %}
-          {% if credential.cert %}<p><code>{{ credential.cert }}</code></p>{% endif %}
+          {% if credential.cert %}<p>Cert ID: <code>{{ credential.cert }}</code></p>{% endif %}
         </li>
       {% endfor %}
       </ul>

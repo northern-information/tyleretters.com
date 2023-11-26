@@ -1,10 +1,36 @@
+- title: Output, Inc.
+  dates: 2022 - Today
+  seats:
+
+    - seat: Senior Web Engineer
+      years: 2 years
+      notes: |
+        Responsible for building and maintaining Output's extensive portfolio of web applications. My daily work usually involves a mixture of: TypeScript, SCSS, e-commerce, payment gateways, microservices, APIs, checkout flows, account pages, landing pages, implementing marketing analytics, Cloudflare administration, DevOps (builds, deployments, etc.), tooling, automated testing, and data migrations. I regularly participate in code reviews, pairing, and mentoring and I occasionally serve as a Technical Product Owner.
+
+- title: Northern Information
+  dates: 2008 - Today
+  seats:
+
+    - seat: Founder
+      years: 14 years
+      notes: Northern Information is my blog, band, and code foundry. I regularly release open-source music software in collaboration with contributors from all over the world. Our instruments are lovingly used by hundreds of musicians.
+
+- title: norns study group
+  dates: 2020 - Today
+  seats:
+
+    - seat: Volunteer
+      years: 3 years
+      notes: The norns study group is a Discord community focused on building software for the monome norns sound computer. I regularly volunteer time as a mentor, moderator, and event organizer.
+
+
 - title: Highland
-  dates: 2013 - Today
+  dates: 2013 - 2022
   seats:
 
     - seat: Vice President
       years: 2 years
-      notes: Responsible for managing finance, cashflow, AR/AP, HR, payroll, operations, compliance, project staffing, vendor relations, and project oversight. My tenure as VP has been coeval with the pandemic, so I became responsible for the office's safety and compliance as well as contingency plans for business continuity. I'm proud to share that we navigated the pandemic without any furloughs or salary reductions while maintaining revenue targets during the economic downturn.
+      notes: Responsible for managing finance, cashflow, AR/AP, HR, payroll, operations, compliance, project staffing, vendor relations, and project oversight. My tenure as VP was coeval with the pandemic, so I became responsible for the office's safety and compliance as well as contingency plans for business continuity. I'm proud to share that we navigated the pandemic without any furloughs or salary reductions while maintaining revenue targets during the economic downturn.
 
     - seat: Director, Software Development
       years: 3 years
@@ -16,23 +42,7 @@
 
     - seat: Senior Full Stack Developer
       years: 1 year
-      notes: Responsible for building web applications and mentoring less experienced developers.
-    
-- title: norns study group
-  dates: 2020 - Today
-  seats:
-
-    - seat: Volunteer
-      years: 1 year
-      notes: The norns study group is a Discord community focused on building software for the monome norns sound computer. Each week I volunteer time as a mentor, moderator, and event organizer.
-
-- title: Northern Information
-  dates: 2009 - Today
-  seats:
-
-    - seat: Software Designer
-      years: 13 years
-      notes: I regularly release open-source music software in collaboration with contributors from all over the world. Our instruments are lovingly used by hundreds of musicians every day. 
+      notes: Responsible for building web applications, developer leadership, and mentoring.
 
 - title: Cubicle Ninjas
   dates: 2011 - 2013
@@ -40,7 +50,7 @@
 
     - seat: Senior Full Stack Developer
       years: 1 year
-      notes: Responsible for building web applications and mentoring less experienced developers.
+      notes: Responsible for building web applications, developer leadership, and mentoring.
 
     - seat: Full Stack Developer
       years: 2 years

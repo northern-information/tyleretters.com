@@ -10,6 +10,11 @@
   dates:
   credentials:
 
+    - credential: NPM Mastery
+      dates: 2023
+      authority: Udemy
+      cert: UC-20652a53-19a4-4bd4-9585-a6cd2c20ca7d
+
     - credential: Fundamentals of Finance and Accounting for Non-Financial Managers
       dates: 2020
       authority: American Management Association
@@ -33,6 +38,10 @@
 - title: Selected Conferences & Events
   dates:
   credentials:
+
+    - credential: Flash Crash
+      dates: 2021, 2022
+      notes: Event Organizer
 
     - credential: BabyCastles Academy
       dates: 2020
