@@ -4,7 +4,7 @@ baseurl: /
 url: https://tyleretters.com
 include: ['_pages']
 tagline: Seasoned Engineer, Designer, and Leader
-blurb: I spend most of my time producing electronic music and passionately building software. I am a seasoned professional who has deployed countless products, solutions, and integrations in both B2B and B2C domains. After serving as Vice President at Highland, I took an IC position at Output, Inc. because I wanted a hands-on role in the music industry. I am at my best when I am building reslient and accessible web experiences!
+blurb: I spend most of my time producing electronic music and passionately building software. I am a seasoned professional who has deployed countless products, solutions, and integrations in both B2B and B2C domains. After serving as Vice President at Highland, I took an IC position at Output, Inc. because I wanted a hands-on role in the music industry. I am at my best when I am building resilient and accessible web experiences!
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
