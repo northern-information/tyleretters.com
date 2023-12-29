@@ -10,6 +10,16 @@
   dates:
   credentials:
 
+    - credential: Understaning TypeScript
+      dates: 2023
+      authority: Udemy
+      cert: UC-0f54dac2-8097-4b51-a87d-e7e4d541f259
+
+    - credential: Vue - The Complete Guide (incl. Router & Composition API)
+      dates: 2023
+      authority: Udemy
+      cert: UC-dc6df0ee-28f9-468a-a57f-cf8e0453c841
+
     - credential: NPM Mastery
       dates: 2023
       authority: Udemy
