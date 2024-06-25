@@ -3,16 +3,16 @@
   seats:
 
     - seat: Senior Web Engineer
-      years: 2 years
+      years: 2.5 years
       notes: |
-        Responsible for building and maintaining Output's extensive portfolio of web applications. My daily work usually involves a mixture of: TypeScript, SCSS, e-commerce, payment gateways, micro-services, APIs, checkout flows, account pages, landing pages, implementing marketing analytics, Cloudflare administration, DevOps (builds, deployments, etc.), tooling, automated testing, and data migrations. I regularly participate in code reviews, pairing, and mentoring and I occasionally serve as a Technical Product Owner.
+        Responsible for building and maintaining Output's extensive portfolio of web applications. My daily work involves a mixture of: TypeScript, SCSS, mobile-first design implementation, e-commerce, payment gateways, micro-services, APIs, checkout flows, account pages, landing pages, implementing marketing analytics, DevOps (builds, deployments, etc.), tooling, automated testing, and data migrations. I regularly participate in code reviews, pairing, and mentoring. I also serve as a technical lead for epics.
 
 - title: Northern Information
   dates: 2008 - Today
   seats:
 
     - seat: Founder
-      years: 14 years
+      years: 16 years
       notes: Northern Information is my blog, band, and code foundry. I regularly release open-source music software in collaboration with contributors from all over the world. Our instruments are lovingly used by hundreds of musicians.
 
 - title: norns study group
@@ -20,7 +20,7 @@
   seats:
 
     - seat: Volunteer
-      years: 3 years
+      years: 4 years
       notes: The norns study group is a Discord community focused on building software for the monome norns sound computer. I regularly volunteer time as a mentor, moderator, and event organizer.
 
 

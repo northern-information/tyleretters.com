@@ -10,6 +10,11 @@
   dates:
   credentials:
 
+    - credential: Create a Front-End App with React Skill Path
+      dates: 2023
+      authority: Codecademy
+      cert: 65908D0D27
+
     - credential: Understanding TypeScript
       dates: 2023
       authority: Udemy

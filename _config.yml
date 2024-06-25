@@ -1,11 +1,10 @@
 title: Tyler Etters
-description: Seasoned Engineer, Designer, and Leader
+description: Seasoned Frontend Engineer, Graphic Designer, and Musician
 baseurl: /
 url: https://tyleretters.com
 include: ['_pages']
-tagline: Seasoned Engineer, Designer, and Leader
-blurb: I spend most of my time producing electronic music and passionately building software. I am a seasoned professional who has deployed countless products, solutions, and integrations in both B2B and B2C domains. After serving as Vice President at Highland, I took an IC position at Output, Inc. because I wanted a hands-on role in the music industry. I am at my best when I am building resilient and accessible web experiences!
+tagline: Seasoned Frontend Engineer, Graphic Designer, and Musician
+blurb: I am a seasoned professional who has deployed countless products, solutions, and integrations in both B2B and B2C domains. After serving as Vice President at Highland, I took an IC position at Output, Inc. because I decided life is too short to not work at a music company. I love frontend engineering and my BFA in Graphic Design gives me a unique set of perspectives on the discipline of web development. If I'm not developing for the web I'm likely producing music.
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-include: ['_pages']
