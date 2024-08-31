@@ -13,6 +13,10 @@ ul {
   border-left: 3px solid #ccc;
 }
 
+code {
+  color: #6c757d;
+}
+
 .row-dark {
   background: #222;
 }
