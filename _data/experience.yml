@@ -1,18 +1,15 @@
-- title: Output, Inc.
-  dates: 2022 - Today
+- title: Discogs
+  dates: 2024 - Today
   seats:
 
-    - seat: Senior Web Engineer
-      years: 2.5 years
-      notes: |
-        Responsible for building and maintaining Output's extensive portfolio of web applications. My daily work involves a mixture of: TypeScript, SCSS, mobile-first design implementation, e-commerce, payment gateways, micro-services, APIs, checkout flows, account pages, landing pages, implementing marketing analytics, DevOps (builds, deployments, etc.), tooling, automated testing, and data migrations. I regularly participate in code reviews, pairing, and mentoring. I also serve as a technical lead for epics.
+    - seat: Senior Full Stack Engineer
+      notes: Discogs began with a mission to document the history of recorded music in a user-generated database. This continually growing wealth of data now serves as the vital foundation of all Discogs services. Through knowledge-sharing and an open marketplace, the Database connects a global community of people seeking an elevated relationship with music.
 
 - title: Northern Information
   dates: 2008 - Today
   seats:
 
     - seat: Founder
-      years: 16 years
       notes: Northern Information is my blog, band, and code foundry. I regularly release open-source music software in collaboration with contributors from all over the world. Our instruments are lovingly used by hundreds of musicians.
 
 - title: norns study group
@@ -20,8 +17,15 @@
   seats:
 
     - seat: Volunteer
-      years: 4 years
       notes: The norns study group is a Discord community focused on building software for the monome norns sound computer. I regularly volunteer time as a mentor, moderator, and event organizer.
+
+- title: Output, Inc.
+  dates: 2022 - 2024
+  seats:
+
+    - seat: Senior Web Engineer
+      notes: |
+        Responsible for building and maintaining Output's extensive portfolio of web applications. My daily work involves a mixture of: TypeScript, SCSS, mobile-first design implementation, e-commerce, payment gateways, micro-services, APIs, checkout flows, account pages, landing pages, implementing marketing analytics, DevOps (builds, deployments, etc.), tooling, automated testing, and data migrations. I regularly participate in code reviews, pairing, and mentoring. I also serve as a technical lead for epics.
 
 
 - title: Highland
@@ -61,7 +65,6 @@
   seats:
 
     - seat: Graphic Designer
-      years: 3 years
       notes: Responsible for prepress, production, and graphic design.
 
 - title: Freelance
@@ -69,5 +72,4 @@
   seats:
 
     - seat: Designer & Developer
-      years: 5 years
       notes: I freelanced through college and the early days of my career. I specialized in branding and websites for small businesses.

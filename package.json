@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "bundle exec jekyll serve --baseurl '' --livereload",
+    "css": "cd assets/stylesheets && sass --watch style.scss:style.css"
+  },
+  "dependencies": {
+    "@tyleretters/discography": "^1.0.3"
+  }
+}
