@@ -1,10 +1,13 @@
 title: Tyler Etters
-description: Seasoned Frontend Engineer, Graphic Designer, and Musician
+description: "Don't give up. Help others not give up."
 baseurl: /
 url: https://tyleretters.com
 include: ['_pages']
-tagline: Seasoned Frontend Engineer, Graphic Designer, and Musician
-blurb: I am a seasoned professional who has deployed countless products, solutions, and integrations in both B2B and B2C domains. After serving as Vice President at Highland, I took an IC position at Output, Inc. because I decided life is too short to not work at a music company. I love frontend engineering and my BFA in Graphic Design gives me a unique set of perspectives on the discipline of web development. If I'm not developing for the web I'm likely producing music.
+tagline: "Don't give up. Help others not give up."
+blurb: |
+  “The inferno of the living is not something that will be; if there is one, it is what is already here, the inferno where we live every day, that we form by being together. There are two ways to escape suffering it. The first is easy for many: accept the inferno and become such a part of it that you can no longer see it. The second is risky and demands constant vigilance and apprehension: seek and learn to recognize who and what, in the midst of inferno, are not inferno, then make them endure, give them space.”
+  
+  ― Italo Calvino, Invisible Cities
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
