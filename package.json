@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "./build.sh",
+    "build": "bundle exec jekyll build --baseurl 'tyleretters.com'",
     "dev": "bundle exec jekyll serve --baseurl '' --livereload",
     "css": "cd assets/stylesheets && sass --watch style.scss:style.css"
   },
