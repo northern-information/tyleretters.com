@@ -5,7 +5,7 @@
     - seat: Senior Full Stack Engineer
       notes: Discogs began with a mission to document the history of recorded music in a user-generated database. This continually growing wealth of data now serves as the vital foundation of all Discogs services. Through knowledge-sharing and an open marketplace, the database connects a global community of people seeking an elevated relationship with music.
 
-- title: Output, Inc.
+- title: Output
   dates: 2022 - 2024
   seats:
 
@@ -46,16 +46,16 @@
       years: 2 years
       notes: Responsible for building web applications.
 
-- title: AlphaGraphics
-  dates: 2008 - 2011
-  seats:
-
-    - seat: Graphic Designer
-      notes: Responsible for prepress, production, and graphic design.
-
 - title: Freelance
   dates: 2008 - 2013
   seats:
 
     - seat: Designer & Developer
       notes: I freelanced through college and the early days of my career. I specialized in branding and websites for small businesses.
+
+- title: AlphaGraphics
+  dates: 2008 - 2011
+  seats:
+
+    - seat: Graphic Designer
+      notes: Responsible for prepress, production, and graphic design.
