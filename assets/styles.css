@@ -2,6 +2,33 @@
 
 @source "../src/**/*.njk";
 
+@layer components {
+  .row {
+    @apply grid grid-cols-1 md:grid-cols-12 gap-4 mb-12;
+  }
+  .row-tight {
+    @apply grid grid-cols-1 md:grid-cols-12 gap-4 mb-3;
+  }
+  .col-label {
+    @apply md:col-span-4 md:text-right mb-3;
+  }
+  .col-body {
+    @apply md:col-span-8;
+  }
+  .col-body-offset {
+    @apply md:col-span-8 md:col-start-5;
+  }
+  .section-heading {
+    @apply text-gray-500 text-3xl md:text-4xl font-light;
+  }
+  .muted {
+    @apply text-gray-500;
+  }
+  .contact-link {
+    @apply text-blue-700 hover:text-blue-900 hover:no-underline;
+  }
+}
+
 a { text-decoration: underline; }
 
 li p { margin-bottom: 0; }
