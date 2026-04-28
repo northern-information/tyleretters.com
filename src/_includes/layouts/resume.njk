@@ -3,6 +3,14 @@ layout: base.njk
 ---
 <main class="mx-auto max-w-5xl px-4">
 
+  <section aria-labelledby="experience-resume">
+    <div class="row-tight">
+      <div class="col-body-offset">
+        <h2 id="experience-resume" class="section-heading">Resume</h2>
+      </div>
+    </div>
+  </section>
+
   <header class="row pt-3">
     <div class="col-label">
       <h1 class="text-5xl font-light">Tyler Etters</h1>
@@ -11,11 +19,15 @@ layout: base.njk
       <p><a href="https://github.com/tyleretters" class="contact-link">github.com/tyleretters</a></p>
       <p><a href="https://linkedin.com/in/tyleretters" class="contact-link">linkedin.com/in/tyleretters</a></p>
     </div>
-    <div class="col-body">
-      <p class="text-2xl mb-3">{{ site.tagline }}</p>
-      <blockquote>
+      <div class="col-body">
+        <ul>
+      <li><p class="text-2xl mb-3">{{ site.tagline }}</p></li>
+      <li>
+        <blockquote>
         {{ site.blurb | md | safe }}
       </blockquote>
+      </li>
+      </ul>
     </div>
   </header>
 
