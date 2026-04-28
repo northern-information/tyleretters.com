@@ -1,0 +1,15 @@
+[
+  { "slug": "bandcamp", "to": "https://intertext.bandcamp.com/" },
+  { "slug": "discord", "to": "https://discord.gg/9AQRe99KSM" },
+  { "slug": "ens", "to": "https://tyleretters.eth/" },
+  { "slug": "gemini", "to": "gemini://tilde.club/~tse/" },
+  { "slug": "github", "to": "https://github.com/tyleretters" },
+  { "slug": "instagram", "to": "https://instagram.com/tyleretters" },
+  { "slug": "linkedin", "to": "https://www.linkedin.com/in/tyleretters" },
+  { "slug": "mastodon", "to": "https://merveilles.town/web/@tyleretters" },
+  { "slug": "music", "to": "https://intertext.bandcamp.com/" },
+  { "slug": "soundcloud", "to": "https://soundcloud.com/tyleretters" },
+  { "slug": "twitch", "to": "https://twitch.tv/tyleretters" },
+  { "slug": "twitter", "to": "https://twitter.com/tyleretters" },
+  { "slug": "youtube", "to": "https://www.youtube.com/channel/UCkZn9WNgPM3gVf9fiyuN1Mg" }
+]
