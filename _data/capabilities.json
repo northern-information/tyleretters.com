@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Skills",
+    "capabilities": [
+      "Full Stack Engineering",
+      "Prompt Engineering",
+      "Visual, Systems, & UX Design",
+      "Information Architecture",
+      "Mentoring",
+      "Accessiblity & Semantics",
+      "Agile Software Development",
+      "Technical & Creative Writing",
+      "Illustration",
+      "Workshop Facilitation & Rapid Prototyping"
+    ]
+  },
+  {
+    "title": "Tools",
+    "capabilities": [
+      "TypeScript / JavaScript / Node",
+      "SCSS / SASS / CSS",
+      "Claude / ChatGPT / Gemini",
+      "git / GitHub",
+      "zsh / vim / ssh / shell scripting",
+      "Python",
+      "Lua",
+      "Figma / Adobe Creative Suite",
+      "Atlassian",
+      "macOS / Windows / Ubuntu",
+      "Music Production",
+      "Video Production",
+      "Photography (35mm & digital)"
+    ]
+  }
+]

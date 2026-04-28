@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@source "../src/**/*.njk";
+
+a { text-decoration: underline; }
+
+li p { margin-bottom: 0; }
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 3px solid #ccc;
+}
+
+code { color: #6c757d; }
+
+.row-dark { background: #222; }
+.row-dark h1,
+.row-dark p { color: #fff; }
+.row-dark a,
+.row-dark a:visited { color: #ffff00; }
+.row-dark a:hover,
+.row-dark a:active { color: #fff; }
+.row-dark iframe { margin: auto; display: block; }
+
+.img-100 {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  display: block;
+}
+
+::selection {
+  color: #fff;
+  background: #007bff;
+}
