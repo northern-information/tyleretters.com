@@ -1,6 +1,7 @@
 - title: Skills
   capabilities:
     - Full Stack Engineering
+    - Prompt Engineering
     - Visual, Systems, & UX Design
     - Information Architecture
     - Mentoring
@@ -14,6 +15,7 @@
   capabilities:
     - TypeScript / JavaScript / Node
     - SCSS / SASS / CSS
+    - Claude / ChatGPT / Gemini
     - git / GitHub
     - zsh / vim / ssh / shell scripting
     - Python
