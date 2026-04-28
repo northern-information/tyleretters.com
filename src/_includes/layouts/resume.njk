@@ -1,111 +1,106 @@
 ---
 layout: base.njk
 ---
-<div class="mx-auto max-w-5xl px-4">
+<main class="mx-auto max-w-5xl px-4">
 
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-3 pt-3">
-    <div class="md:col-span-8 md:col-start-5">
-      <h1 class="text-gray-500 text-3xl md:text-4xl font-light">Resume</h1>
-    </div>
-  </div>
-
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-12">
-    <div class="md:col-span-4 md:text-right mb-3">
-      <h1 class="text-5xl font-light ">Tyler Etters</h1>
+  <header class="row pt-3">
+    <div class="col-label">
+      <h1 class="text-5xl font-light">Tyler Etters</h1>
       <p><em>he / they</em></p>
-      <p><a href="mailto:tyler@etters.co" class="text-blue-700 hover:text-blue-900 hover:no-underline">tyler@etters.co</a></p>
-      <p><a href="https://github.com/tyleretters" class="text-blue-700 hover:text-blue-900 hover:no-underline">github.com/tyleretters</a></p>
-      <p><a href="https://linkedin.com/in/tyleretters" class="text-blue-700 hover:text-blue-900 hover:no-underline">linkedin.com/in/tyleretters</a></p>
+      <p><a href="mailto:tyler@etters.co" class="contact-link">tyler@etters.co</a></p>
+      <p><a href="https://github.com/tyleretters" class="contact-link">github.com/tyleretters</a></p>
+      <p><a href="https://linkedin.com/in/tyleretters" class="contact-link">linkedin.com/in/tyleretters</a></p>
     </div>
-    <div class="md:col-span-8">
-      <ul>
-        <li class="intro">
-          <h2 class="text-2xl">{{ site.tagline }}</h2>
-          {{ site.blurb | md | safe }}
-        </li>
-      </ul>
+    <div class="col-body">
+      <p class="text-2xl mb-3">{{ site.tagline }}</p>
+      <blockquote>
+        {{ site.blurb | md | safe }}
+      </blockquote>
+    </div>
+  </header>
+
+  <section aria-labelledby="experience-heading">
+    <div class="row-tight">
+      <div class="col-body-offset">
+        <h2 id="experience-heading" class="section-heading">Experience</h2>
+      </div>
+    </div>
+    {% for item in experience %}
+    <div class="row">
+      <div class="col-label">
+        <h3 class="text-2xl">{{ item.title }}</h3>
+        <em class="muted">{{ item.dates }}</em>
+      </div>
+      <div class="col-body">
+        <ul>
+        {% for seat in item.seats %}
+          <li class="mb-3">
+            <h4 class="font-bold">{{ seat.seat }}</h4>
+            {% if seat.years %}<p><em class="muted">{{ seat.years }}</em></p>{% endif %}
+            <p>{{ seat.notes | md | safe }}</p>
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section aria-labelledby="capabilities-heading">
+    <div class="row-tight">
+      <div class="col-body-offset">
+        <h2 id="capabilities-heading" class="section-heading">Capabilities</h2>
+      </div>
+    </div>
+    {% for item in capabilities %}
+    <div class="row">
+      <div class="col-label">
+        <h3 class="text-xl">{{ item.title }}</h3>
+      </div>
+      <div class="col-body">
+        <ul>
+        {% for capability in item.capabilities %}
+          <li class="mb-3">{{ capability }}</li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <section aria-labelledby="education-heading">
+    <div class="row-tight">
+      <div class="col-body-offset">
+        <h2 id="education-heading" class="section-heading">Education</h2>
+      </div>
+    </div>
+    {% for item in education %}
+    <div class="row">
+      <div class="col-label">
+        <h3 class="text-xl">{{ item.title }}</h3>
+        {% if item.dates %}<em class="muted">{{ item.dates }}</em>{% endif %}
+      </div>
+      <div class="col-body">
+        <ul>
+        {% for credential in item.credentials %}
+          <li class="mb-12">
+            <h4 class="font-bold">{{ credential.credential }}</h4>
+            {% if credential.dates %}<p><em class="muted">{{ credential.dates }}</em></p>{% endif %}
+            {% if credential.notes %}<p>{{ credential.notes | md | safe }}</p>{% endif %}
+            {% if credential.authority %}<p>{{ credential.authority }}</p>{% endif %}
+            {% if credential.cert %}<p>Cert ID: <code>{{ credential.cert }}</code></p>{% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </section>
+
+  <div class="row">
+    <div class="col-body-offset">
+      <img class="max-w-full h-auto" src="/assets/images/tyler-in-maine-2019.jpg" alt="Tyler Etters, photographed in Maine in 2019.">
     </div>
   </div>
 
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-3">
-    <div class="md:col-span-8 md:col-start-5">
-      <h1 class="text-gray-500 text-3xl md:text-4xl font-light">Experience</h1>
-    </div>
-  </div>
-  {% for item in experience %}
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-12">
-    <div class="md:col-span-4 md:text-right mb-3">
-      <h2 class="text-2xl mb-1">{{ item.title }}</h2>
-      <em class="text-gray-500">{{ item.dates }}</em>
-    </div>
-    <div class="md:col-span-8">
-      <ul>
-      {% for seat in item.seats %}
-        <li class="mb-3">
-          <p><strong>{{ seat.seat }}</strong></p>
-          {% if seat.years %}<p><em class="text-gray-500">{{ seat.years }}</em></p>{% endif %}
-          <p>{{ seat.notes | md | safe }}</p>
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-  {% endfor %}
-
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-3">
-    <div class="md:col-span-8 md:col-start-5">
-      <h1 class="text-gray-500 text-3xl md:text-4xl font-light">Capabilities</h1>
-    </div>
-  </div>
-  {% for item in capabilities %}
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-12">
-    <div class="md:col-span-4 md:text-right mb-3">
-      <h3 class="text-xl mb-1">{{ item.title }}</h3>
-      <em class="text-gray-500">{{ item.dates }}</em>
-    </div>
-    <div class="md:col-span-8">
-      <ul>
-      {% for capability in item.capabilities %}
-        <li class="mb-3">
-          <p>{{ capability }}</p>
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-  {% endfor %}
-
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-3">
-    <div class="md:col-span-8 md:col-start-5">
-      <h1 class="text-gray-500 text-3xl md:text-4xl font-light">Education</h1>
-    </div>
-  </div>
-  {% for item in education %}
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4 mb-12">
-    <div class="md:col-span-4 md:text-right mb-3">
-      <h3 class="text-xl mb-1">{{ item.title }}</h3>
-      {% if item.dates %}<em class="text-gray-500">{{ item.dates }}</em>{% endif %}
-    </div>
-    <div class="md:col-span-8">
-      <ul>
-      {% for credential in item.credentials %}
-        <li class="mb-12">
-          <p><strong>{{ credential.credential }}</strong></p>
-          {% if credential.dates %}<p><em class="text-gray-500">{{ credential.dates }}</em></p>{% endif %}
-          {% if credential.notes %}<p>{{ credential.notes | md | safe }}</p>{% endif %}
-          {% if credential.authority %}<p>{{ credential.authority }}</p>{% endif %}
-          {% if credential.cert %}<p>Cert ID: <code>{{ credential.cert }}</code></p>{% endif %}
-        </li>
-      {% endfor %}
-      </ul>
-    </div>
-  </div>
-  {% endfor %}
-
-  <div class="grid grid-cols-1 md:grid-cols-12 gap-4">
-    <div class="md:col-span-8 md:col-start-5 mb-12">
-      <img class="max-w-full h-auto" src="/assets/images/tyler-in-maine-2019.jpg" alt="">
-    </div>
-  </div>
-
-</div>
+</main>
