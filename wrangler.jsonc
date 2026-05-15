@@ -15,6 +15,10 @@
     {
       "pattern": "tyleretters.com/*",
       "zone_name": "tyleretters.com"
+    },
+    {
+      "pattern": "www.tyleretters.com/*",
+      "zone_name": "tyleretters.com"
     }
   ]
 }
