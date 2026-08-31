@@ -2,8 +2,6 @@ import markdownIt from "markdown-it";
 
 export default async function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets/images");
-  eleventyConfig.addPassthroughCopy("assets/javascript");
-  eleventyConfig.addPassthroughCopy("assets/pdf");
   eleventyConfig.addPassthroughCopy({ "*.png": "/" });
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("CNAME");

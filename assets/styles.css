@@ -42,22 +42,6 @@ ul {
 
 code { color: #6c757d; }
 
-.row-dark { background: #222; }
-.row-dark h1,
-.row-dark p { color: #fff; }
-.row-dark a,
-.row-dark a:visited { color: #ffff00; }
-.row-dark a:hover,
-.row-dark a:active { color: #fff; }
-.row-dark iframe { margin: auto; display: block; }
-
-.img-100 {
-  width: 100%;
-  max-width: 800px;
-  margin: auto;
-  display: block;
-}
-
 ::selection {
   color: #fff;
   background: #007bff;
